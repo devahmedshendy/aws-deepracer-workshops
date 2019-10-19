@@ -1,9 +1,23 @@
-*.iml
-.idea
+### Project-Related Build ###
 venv
 log-analysis/venv
 reward
 !reward/reward_sample.py
-logs
-!logs/*-sample.log
+logs/db/
+!logs/db/.gitkeep
+logs/cloudwatch/
+!logs/cloudwatch/.gitkeep
+logs/local_training/
+!logs/local_training/.gitkeep
+Log Analysis for *-*
 .ipynb_checkpoints
+__pycache__
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Others ###
+.DS_Store
