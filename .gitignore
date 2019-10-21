@@ -3,12 +3,12 @@ venv
 log-analysis/venv
 reward
 !reward/reward_sample.py
-logs/db/
-!logs/db/.gitkeep
-logs/cloudwatch/
-!logs/cloudwatch/.gitkeep
-logs/local_training/
-!logs/local_training/.gitkeep
+log-analysis/logs/db/*.csv
+!log-analysis/logs/db/.gitkeep
+log-analysis/logs/cloudwatch/*.log
+!log-analysis/logs/cloudwatch/.gitkeep
+log-analysis/logs/local_training/*.log
+!log-analysis/logs/local_training/.gitkeep
 Log Analysis for *-*
 .ipynb_checkpoints
 __pycache__
